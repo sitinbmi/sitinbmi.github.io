@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>	<!-- head=info about webpage not seen on webpage -->
+	<title>Random ramblings</title>
+	<link
+	rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"
+	>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<link href="./style.css" type="text/css" rel="stylesheet"/>
+	<meta charset="UTF-8">	<!-- the charset attribute specifies the character encoding for the HTML document; UTF-8=character encoding for Unicode, which is encoded by most/all browsers, hence can be easily read by them -->
+</head>
+<body>	<!-- body=info about webpage seen on webpage -->
+	<!-- Insert navigation bar -->
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">RANDOM RAMBLINGS</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Articles</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Slideshows</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Fun lists</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Interviews
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Celebrities</a>
+						<a class="dropdown-item" href="#">Civilians</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Mockumentaries</a>
+					</div>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	<!-- Define container -->
+	<div class="container">
+		<!-- Define 1st content row -->
+		<div class="row content-row1">
+		<!-- In this row, we want 3, 6, 3 cols -->
+			<!-- Left-hand side 3-col content-->
+			<div class="col-md-3">
+				<p>10 reasons why weekends are underrated</p>
+				<img src="./img/Dancing boy.gif" alt="adult man dancing" height="250" width="270">
+			</div>
+			<!-- Centred 6-col blank-->
+			<div class="col-md-6">
+			</div>
+			<!-- Right-hand side 3-col content-->
+			<div class="col-md-3">
+				<p>Laughing when seeing something painful is normal</p>
+				<img src="./img/Guy_wincing_and_laughing.gif" alt="adult man crying and laughing" height="250" width="270">
+			</div>
+		</div>
+		<!-- Define blank row between content rows-->
+		<div class="row blank-row1">
+			<div class="col-md">
+			</div>
+		</div>
+		<!-- Define 2nd content row -->
+		<div class="row content-row2">
+		<!-- In this row, we want 3, 6, 3 cols -->
+			<!-- Left-hand side 3-col content-->
+			<div class="col-md-3">
+				<p>What happens in your brain when you listen to sad songs?</p>
+				<img src="./img/Boy_crying.gif" alt="boy crying" height="250" width="270">
+			</div>
+			<!-- Centred 6-col blank-->
+			<div class="col-md-6">
+			</div>
+			<!-- Right-hand side 3-col content-->
+			<div class="col-md-3">
+				<p>The art of suppressing emotions when interacting with people</p>
+				<img src="./img/Jim_Carrey_laugh_to_grimace.gif" alt="adult man laughing then crying" height="250" width="270">
+			</div>
+		</div>
+		<!-- Define 3rd content row -->
+		<div class="row content-row3">
+		<!-- In this row, we want 3, 6, 3 cols -->
+			<!-- Left-hand side 3-col content-->
+			<div class="col-md-3">
+				<p>50 best depressing songs to cry to</p>
+				<img src="./img/Michael Jordan crying.gif" alt="Michael Jordan crying" height="250" width="270">
+			</div>
+			<!-- Centred 6-col blank-->
+			<div class="col-md-6">
+			</div>
+			<!-- Right-hand side 3-col content-->
+			<div class="col-md-3">
+				<p>Theresa May: We need to revamp the UK brand</p>
+				<img src="./img/Theresa_May.gif" alt="Theresa May" height="250" width="270">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

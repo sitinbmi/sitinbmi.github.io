@@ -1,0 +1,51 @@
+body {
+	background-color: white;
+	background-image: url("./img/Dance moves.gif");
+	background-repeat:no-repeat;
+	background-size:contain;
+	}
+
+.navbar-brand {
+	color: firebrick;
+	text-align: center;
+	font-size:61px;
+	font-family: "Stencil";
+}
+
+.col-md-6 {
+	color: darkorchid;
+	font-size:31px;
+	font-family:"Tahoma";
+	text-align: center;
+	display: block;
+}
+
+.title-row {
+	background-color: darkseagreen;
+	}
+
+p {
+	color: firebrick;
+	font-size:21px;
+	font-family:"Georgia";
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+ul {
+	color: tomato;
+	font-size:27px;
+	font-family:"Comic Sans MS", "Arial";
+	margin: 11;
+	padding: 11;
+	}
+
+img {
+	border-width: 5px;
+	border-color: black;
+	border-radius:5px;
+	display: block;
+	margin-bottom: 10px;
+	}
+}
